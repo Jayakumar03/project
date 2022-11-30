@@ -1,0 +1,12 @@
+.container-sub{
+    background-color:rgba(41, 55, 204, 0.05);
+    width: 100vw;
+    height:400px;
+}
+
+.newletter-heading{
+    margin: 0 auto;
+    margin-top: 40%;
+    color: brown;
+    
+}

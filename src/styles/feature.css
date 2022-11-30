@@ -1,0 +1,98 @@
+
+.heading{
+    position: relative;
+    margin: 0 auto;
+    top: 10px;
+    left: 45%;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+
+.ind-container{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(228, 231, 234);
+    border-radius: 90px;
+    text-align: center;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.head-icons{
+   font-size: xx-large;
+   position: relative;
+   top:10px;
+   margin: 0 auto;
+   width: 50px;
+   background-color: rgb(28, 28, 31);
+   border-radius: 50px;
+}
+
+.icons{
+    margin: 0 auto;
+    color: grey;
+}
+
+.tail-icons{
+    position: relative;
+    top: 10px;
+    width: 50px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: rgb(35, 36, 3);
+    border-radius: 50%;
+}
+
+.zig-zag{
+    position: relative;
+    top: -20px;
+
+}
+
+/* image */
+
+.image{
+    background: url(../images/pexels-abbas-mohammed-4022080.jpg);
+    width: 200px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    object-fit: contain;
+}
+
+.container-person{
+    background-color: aliceblue;
+    width:200px;
+    height: 90px;
+    position: relative;
+    top:170px;
+
+}
+
+
+.person{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: relative;
+    top:-20px;
+}
+
+.name{
+    position: relative;
+    top:100px;
+    color: black;
+}
