@@ -7,9 +7,11 @@ import Footer from './components/Footer';
 const App = () => {
   return(
     <div>
+       <Footer/>
+       
     {/* <Feature/> */}
     {/* <Memorius/> */}
-    <Footer/>
+   
     </div>
   )
 }

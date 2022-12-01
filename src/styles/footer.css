@@ -4,9 +4,73 @@
     height:400px;
 }
 
-.newletter-heading{
+.newsletter{
     margin: 0 auto;
-    margin-top: 40%;
     color: brown;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+    font-size: xx-large;  
+}
+
+form{
+    border: solid rgb(135, 70, 70) 3px;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+input{
+    border: none;
+    background: none;
+    position: relative;
+    top: -15px;
+    left:20px;
+}
+
+.button{
+    border-radius:10px;
+    color: aliceblue;
+    border: none;
+    background: none;
+    position: relative;
+    height: 20px;
+    top: -15px;
+    left:45px;
+    background-color: blue;
+
+}
+
+.container-nav{
+    background-color:rgba(10, 15, 89, 0.89);
+    width: 100vw;
+    height:400px;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+
+}
+
+button{
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+}
+
+.com-con{
+    height: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.copyright{
+    background-color:rgba(10, 15, 89, 0.89) ;
+    margin: 0 auto;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
